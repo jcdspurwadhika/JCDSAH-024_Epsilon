@@ -12,7 +12,7 @@ Dataset yang digunakan dalam project ini bisa diambil melalui link berikut (http
 
 Dataset berasal dari website penjualan mobil syarah.com, dimana dataset merupakan listing mobil bekas yang dijual di website syarah.
 
-Dataset mengandung attribute sebagai berikut 
+Dataset sebelum cleaning berisi 8248 row dengan attribute sebagai berikut
 | **Attribute** | **Data Type** | **Description**                                       |
 | ------------- | ------------- | ----------------------------------------------------- |
 | Link          | Object        | Link iklan mobil                                      |

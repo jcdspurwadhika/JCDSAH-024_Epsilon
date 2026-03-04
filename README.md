@@ -36,7 +36,7 @@ Output dari project ini adalah model regresi yang di implementasi menggunakan St
 
 ---
 ## Tableau Dashboard
-https://public.tableau.com/app/profile/rivaldo.nugradwiyanto/viz/SyarahSaudiUsedCarPriceAnalysis/Dashboard1
+https://public.tableau.com/app/profile/rivaldo.nugradwiyanto/viz/SyarahSaudiUsedCarPriceAnalysis/Dashboard1?publish=yes
 
 ---
 ## Streamlit Page

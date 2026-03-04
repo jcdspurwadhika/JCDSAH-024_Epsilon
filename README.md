@@ -6,9 +6,11 @@ Project Used Car Price Prediction adalah sebuah project machine learning dimana 
 Goal utama dari project ini adalah memberikan sebuah prediksi harga mobil berdasarkan kriteria diantara lain Merk mobil, Milleage penggunaan mobil, dan Tahun pengeluaran/pembuatan mobil untuk mempermudah pengguna dalam menentukan harga yang kompetitif dengan cara membuat sebuah model machine learning yang akan mengestimasi harga berdasarkan spesifikasi kendaraan. Model ini dirancang sebagai sistem rekomendasi harga yang dapat diintegrasi ke dalam platform marketplace.
 
 ---
-## Dataset
-Dataset yang digunakan dalam project ini bisa diambil melalui link berikut >>> https://www.kaggle.com/datasets/turkibintalib/saudi-arabia-used-cars-dataset
-Dataset berasal dari website penjualan mobil syarah.com.
+## Project Flow
+### Dataset
+Dataset yang digunakan dalam project ini bisa diambil melalui link berikut (https://www.kaggle.com/datasets/turkibintalib/saudi-arabia-used-cars-dataset)
+
+Dataset berasal dari website penjualan mobil syarah.com, dimana dataset merupakan listing mobil bekas yang dijual di website syarah.
 
 Dataset mengandung attribute sebagai berikut 
 | **Attribute** | **Data Type** | **Description**                                       |
@@ -28,12 +30,22 @@ Dataset mengandung attribute sebagai berikut
 | Region        | Object        | Wilayah tempat mobil dijual                           |
 | Price         | Object        | Harga jual mobil dalam SAR                            |
 | Negotiable    | Boolean       | Status apakah harga dapat dinegosiasikan              |
+
+### Output dari Project
+Output dari project ini adalah model regresi yang di deploy menggunakan Streamlit. Model yang digunakan untuk melakukan prediksi adalah XGBoost.
 ---
 ## Tableau Dashboard
 https://public.tableau.com/app/profile/rivaldo.nugradwiyanto/viz/SyarahSaudiUsedCarPriceAnalysis/Dashboard1
 ---
 ## Streamlit Page
 https://used-cars-machine-learning-deployment-nn856zy4htkrhxgzpznoga.streamlit.app/
+
+Aplikasi Streamlit merupakan implementasi model Used Car Predictor. Streamlit dapat digunakan oleh penjual mobil untuk mencari estimasi harga mobil yang akan dijual. Aplikasi ini juga dapat digunakan oleh pembeli untuk melihat estimasi harga mobil yang akan dibeli.
+
+Cara penggunaan Streamlit Used Car Predictor adalah sebagai berikut:
+- Masukan kriteria mobil menggunakan dropdown menu, slider, dan manual input.
+- Setelah kriteria mobil sudah sesuai, Klik tombol **Predict Price**.
+- Streamlit akan menunjukan return estimasi harga dan range kemungkinan variasi harga.
 ---
 ## Streamlit Deployment
 Setelah menjalankan notebook **Final Project - Price Prediction**, akan muncul file yang bernama **Used_cars_XGB.sav** yang merupakan model yang sudah tersimpan agar bisa digunakan oleh **app.py**.

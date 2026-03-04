@@ -38,7 +38,7 @@ https://used-cars-machine-learning-deployment-nn856zy4htkrhxgzpznoga.streamlit.a
 ## Streamlit Deployment
 Setelah menjalankan notebook **Final Project - Price Prediction**, akan muncul file yang bernama **Used_cars_XGB.sav** yang merupakan model yang sudah tersimpan agar bisa digunakan oleh **app.py**.
 ### Cara untuk run streamlit di localhost
-1. Install library yang dapat diperlukan (dapat dilihat dari **requirement.txt**)
+1. Install library yang diperlukan (dapat dilihat dari **requirement.txt**)
 2. Saat membukan **app.py**, masukan perintah berikut di console
 ```
 streamlit run app.py

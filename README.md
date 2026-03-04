@@ -32,6 +32,7 @@ Dataset mengandung attribute sebagai berikut
 | Negotiable    | Boolean       | Status apakah harga dapat dinegosiasikan              |
 
 ### Output dari Project
+
 Output dari project ini adalah model regresi yang di deploy menggunakan Streamlit. Model yang digunakan untuk melakukan prediksi adalah XGBoost.
 ---
 ## Tableau Dashboard

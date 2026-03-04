@@ -45,6 +45,8 @@ Model Dievaluasi dengan metric berikut
 - Mean Absolute Percentage Error (MAPE)
 - R-Square $$(R^2)$$
 
+Metric RMSE menjadi metric acuan dalam menilai performa model karena digunakan untuk melihat error prediksi harga yang dilakukan oleh model.
+
 ### Output dari Project
 Output dari project ini adalah model regresi yang di implementasi menggunakan Streamlit. Output dari modelling model XGBoost yang telah dilakukan tuning menggunakan RandomSearch dengan R² = 0.817 dan MAPE = 16.96%.
 

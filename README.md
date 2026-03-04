@@ -29,6 +29,10 @@ Dataset mengandung attribute sebagai berikut
 | Price         | Object        | Harga jual mobil dalam SAR                            |
 | Negotiable    | Boolean       | Status apakah harga dapat dinegosiasikan              |
 ---
+## Tableau Dashboard >>> https://public.tableau.com/app/profile/rivaldo.nugradwiyanto/viz/SyarahSaudiUsedCarPriceAnalysis/Dashboard1
+---
+## Streamlit Page >>> https://used-cars-machine-learning-deployment-nn856zy4htkrhxgzpznoga.streamlit.app/
+---
 ## Streamlit Deployment
 Setelah menjalankan notebook **Final Project - Price Prediction**, akan muncul file yang bernama **Used_cars_XGB.sav** yang merupakan model yang sudah tersimpan agar bisa digunakan oleh **app.py**.
 ### Cara untuk run streamlit di localhost
@@ -37,4 +41,4 @@ Setelah menjalankan notebook **Final Project - Price Prediction**, akan muncul f
 ```
 streamlit run app.py
 ```
-
+---

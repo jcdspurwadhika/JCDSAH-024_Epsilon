@@ -5,6 +5,8 @@ Project Used Car Price Prediction adalah sebuah project machine learning dimana 
 
 Goal utama dari project ini adalah memberikan sebuah prediksi harga mobil berdasarkan kriteria diantara lain Merk mobil, Milleage penggunaan mobil, dan Tahun pengeluaran/pembuatan mobil untuk mempermudah pengguna dalam menentukan harga yang kompetitif dengan cara membuat sebuah model machine learning yang akan mengestimasi harga berdasarkan spesifikasi kendaraan. Model ini dirancang sebagai sistem rekomendasi harga yang dapat diintegrasi ke dalam platform marketplace.
 
+[Streamlit](https://used-cars-machine-learning-deployment-nn856zy4htkrhxgzpznoga.streamlit.app/)
+
 ---
 ## Project Flow
 ### Dataset

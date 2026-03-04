@@ -43,7 +43,7 @@ Model Dievaluasi dengan metric berikut
 - Root Mean Square Error (RMSE)
 - Mean Absolute Error (MAE)
 - Mean Absolute Percentage Error (MAPE)
-- R-Square (R^2)
+- R-Square $$(R^2)$$
 
 ### Output dari Project
 Output dari project ini adalah model regresi yang di implementasi menggunakan Streamlit. Output dari modelling model XGBoost yang telah dilakukan tuning menggunakan RandomSearch dengan R² = 0.817 dan MAPE = 16.96%.

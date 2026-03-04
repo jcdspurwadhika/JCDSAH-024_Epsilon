@@ -48,7 +48,11 @@ Model Dievaluasi dengan metric berikut
 Metric RMSE menjadi metric acuan dalam menilai performa model karena digunakan untuk melihat error prediksi harga yang dilakukan oleh model.
 
 ### Output dari Project
-Output dari project ini adalah model regresi yang di implementasi menggunakan Streamlit. Output dari modelling model XGBoost yang telah dilakukan tuning menggunakan RandomSearch dengan R² = 0.817 dan MAPE = 16.96%.
+Output dari project ini adalah model regresi yang di implementasi menggunakan Streamlit. Output dari modelling model XGBoost yang telah dilakukan tuning menggunakan RandomSearch dengan metric akhir sebagai berikut.
+
+| **RMSE**      | **MAE**       | **MAPE**      | **MAPE**      |
+| ------------- | ------------- | --------------| --------------|
+| 36546.576091  | 13502.975586  | 	0.169580	  | 	0.817393    |
 
 ---
 ## Tableau Dashboard
